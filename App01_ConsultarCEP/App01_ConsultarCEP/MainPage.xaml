@@ -6,9 +6,10 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Image Source="logo_correios.png"/>
+        <Entry Placeholder="Digite o CEP" PlaceholderColor="#ffbf00" BackgroundColor="#ffffff" />
+        <Button Text="BUSCAR CEP" TextColor="#ffffff" BackgroundColor="#00416B"/>
+        <Label Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
     </StackLayout>
 
 </ContentPage>
