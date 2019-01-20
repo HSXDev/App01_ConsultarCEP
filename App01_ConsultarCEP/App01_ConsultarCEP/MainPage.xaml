@@ -4,12 +4,12 @@
              xmlns:local="clr-namespace:App01_ConsultarCEP"
              x:Class="App01_ConsultarCEP.MainPage">
 
-    <StackLayout>
+    <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
         <!-- Place new controls here -->
-        <Image Source="logo_correios.png"/>
-        <Entry Placeholder="Digite o CEP" PlaceholderColor="#ffbf00" BackgroundColor="#ffffff" />
-        <Button Text="BUSCAR CEP" TextColor="#ffffff" BackgroundColor="#00416B"/>
-        <Label Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Image Source="logo_correios.png" x:Name="Logo"/>
+        <Entry Placeholder="Digite o CEP" PlaceholderColor="#ffbf00" BackgroundColor="#ffffff" x:Name="CEP" />
+        <Button Text="BUSCAR CEP" TextColor="#ffffff" BackgroundColor="#00416B" x:Name="BuscarCEP"/>
+        <Label x:Name="Retorno" Text="" VerticalOptions="Center" HorizontalOptions="Center"/>
     </StackLayout>
 
 </ContentPage>
